@@ -5,7 +5,7 @@ Testing framework used: Cypress
 
 Running Tests: The following steps should get you set up for running tests locally on your machine:
 
-1. Clone this project from remote repository
+1. Clone this project from remote repository "git clone https://github.com/ALazarchik/tourradar-cypress-e2e.git"
 2. Open up a terminal and install project dependencies using the following command: "npm install"
 3. Run the Cypress from the command line - "npm run open"
 4. Choose E2E Testing option, select installed browser and click Start E2E Testing button, open sortAndFilterTests spec file.
