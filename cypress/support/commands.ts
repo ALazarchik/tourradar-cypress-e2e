@@ -25,12 +25,10 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 //
-declare global {
-  namespace Cypress {
+declare namespace Cypress {
     interface Chainable<Subject> {
         openHomePage(): Chainable<any>
     }
-  }
 }
 
 Cypress.Commands.add('openHomePage', () => {
